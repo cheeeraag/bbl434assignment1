@@ -1,0 +1,22 @@
+| Category                      | Name (short)      | Recognition / Role (brief)                               | Typical use in bacterial systems                               |
+| ----------------------------- | ----------------- | -------------------------------------------------------- | -------------------------------------------------------------- |
+| Restriction enzyme            | EcoRI             | Recognizes GAATTC, 5′ overhangs                          | Classic cloning in MCS of pUC/pBR vectors                      |
+| Restriction enzyme            | BamHI             | Recognizes GGATCC, 5′ overhangs                          | Paired with EcoRI/HindIII for directional cloning              |
+| Restriction enzyme            | HindIII           | Recognizes AAGCTT, 5′ overhangs                          | Standard site in many MCS regions                              |
+| Restriction enzyme            | PstI              | Recognizes CTGCAG, 3′ overhangs                          | Older plasmids, subcloning, compatible with pBR322 derivatives |
+| Restriction enzyme            | KpnI              | Recognizes GGTACC, 3′ overhangs                          | Alternative site in MCS, directional cloning                   |
+| Restriction enzyme            | SacI              | Recognizes GAGCTC, 5′ overhangs                          | Frequently present in pUC‑type MCS                             |
+| Restriction enzyme            | SalI              | Recognizes GTCGAC, 5′ overhangs                          | Cloning around promoter/ORF junctions                          |
+| Restriction enzyme            | XbaI              | Recognizes TCTAGA, 5′ overhangs                          | Modular cloning, compatible with SpeI overhangs                |
+| Restriction enzyme            | NotI              | Recognizes GCGGCCGC, rare 8‑bp cutter                    | Backbone swapping, large fragment subcloning                   |
+| Restriction enzyme            | SmaI              | Recognizes CCCGGG, blunt ends                            | Non‑directional cloning, site checks                           |
+| Restriction enzyme (Type IIS) | BsaI (Eco31I)     | Cuts outside GGTCTC                                      | Golden Gate/modular assembly                                   |
+| Restriction enzyme (Type IIS) | BbsI (BpiI)       | Cuts outside GAAGAC                                      | CRISPR and multi‑part assemblies                               |
+| Restriction enzyme (Type IIS) | BsmBI (Esp3I)     | Cuts outside CGTCTC                                      | MoClo, expression cassette construction                        |
+| Selection marker (antibiotic) | AmpR (bla)        | Ampicillin resistance (β‑lactamase)                      | Most common plasmid marker in E. coli cloning vectors          |
+| Selection marker (antibiotic) | KanR (nptII/aphA) | Kanamycin resistance (aminoglycoside phosphotransferase) | Robust selection; many T7 and expression plasmids              |
+| Selection marker (antibiotic) | CmR (cat)         | Chloramphenicol resistance (acetyltransferase)           | BACs, low‑copy plasmids, dual‑marker systems                   |
+| Selection marker (antibiotic) | TetR (tetA/tetR)  | Tetracycline resistance                                  | Classic pBR322 and some tightly regulated systems              |
+| Selection marker (antibiotic) | SpecR (aadA)      | Spectinomycin/streptomycin resistance                    | Broad‑host‑range and modular vectors                           |
+| Screening marker              | lacZα             | α‑complementation of β‑galactosidase                     | Blue–white screening of inserts in MCS                         |
+| Screening/selection module    | GFP/mCherry etc.  | Fluorescent reporters                                    | Visual selection, expression tracking                          |
